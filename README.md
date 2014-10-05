@@ -2,6 +2,7 @@
 =============
 Linux BURST coin plot generator optimized for SSE4 / AVX2<br>
 Speed gain of ~2x using SSE4 core instead of original<br>
+AVX2 not tested (report results!)<br>
 <br>
 Linux BURST coin miner/optimizer (untouched original code)<br>
 Author: Niksa Franceschi <niksa.franceschi@gmail.com><br>
