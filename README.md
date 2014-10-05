@@ -18,23 +18,23 @@ Burst: BURST-LNVN-5M4L-S9KP-H5AAC<br>
 
 
 ###Installing
-> git clone https://github.com/BurstTools/BurstSoftware.git
-> cd mdcct
-> make
+    git clone https://github.com/BurstTools/BurstSoftware.git
+    cd mdcct
+    make
 
 Installation may break on AVX2 code (depending on compiler), but it is separate binary.<br>
 
 ###Usage
 ######For SSE4
-> Usage: ./plot -k KEY [ -x CORE ] [-d DIRECTORY] [-s STARTNONCE] [-n NONCES] [-m STAGGERSIZE] [-t THREADS]
->   CORE:
->     0 - default core
->     1 - SSE4 core
+    Usage: ./plot -k KEY [ -x CORE ] [-d DIRECTORY] [-s STARTNONCE] [-n NONCES] [-m STAGGERSIZE] [-t THREADS]
+     CORE:
+       0 - default core
+       1 - SSE4 core
 
 ######For AVX2
-> Usage: ./plotavx2 -k KEY [ -x CORE ] [-d DIRECTORY] [-s STARTNONCE] [-n NONCES] [-m STAGGERSIZE] [-t THREADS]
->   CORE:
->     0 - default core
->     1 - SSE4 core
->     2 - AVX2 core
+    Usage: ./plotavx2 -k KEY [ -x CORE ] [-d DIRECTORY] [-s STARTNONCE] [-n NONCES] [-m STAGGERSIZE] [-t THREADS]
+      CORE:
+        0 - default core
+        1 - SSE4 core
+        2 - AVX2 core
 ######Not specifying -x option will default to original dcct ploter
