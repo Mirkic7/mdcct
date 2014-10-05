@@ -12,9 +12,10 @@ Burst for donations: BURST-RQW7-3HNW-627D-3GAEV<br>
 Linux miner/plotter/plot optimizer by dcct / Markus Tervooren <info@bchain.info><br>
 Burst: BURST-R5LP-KEL9-UYLG-GFG6T<br>
 
-Modifed using Cerr Janror <cerr.janror@gmail.com><br>
+Modifed using BurstSoftware code: https://github.com/BurstTools/BurstSoftware <br>
+by Cerr Janror <cerr.janror@gmail.com><br>
 Burst: BURST-LNVN-5M4L-S9KP-H5AAC<br>
-BurstSoftware code: https://github.com/BurstTools/BurstSoftware <br>
+
 
 ###Installing
 > git clone https://github.com/BurstTools/BurstSoftware.git
