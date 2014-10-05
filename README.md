@@ -18,7 +18,7 @@ Burst: BURST-LNVN-5M4L-S9KP-H5AAC<br>
 
 
 ###Installing
-    git clone https://github.com/BurstTools/BurstSoftware.git
+    git clone https://github.com/Mirkic7/mdcct.git
     cd mdcct
     make
 
