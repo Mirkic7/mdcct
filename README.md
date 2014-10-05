@@ -1,13 +1,14 @@
 #MDCCT
 =============
 Linux BURST coin plot generator optimized for SSE4 / AVX2<br>
-Speed gainx ov ~2x using SSE4 core instead of original<br>
+Speed gain of ~2x using SSE4 core instead of original<br>
 <br>
 Linux BURST coin miner/optimizer (untouched original code)<br>
-Author: Niksa Franceschi <niksa.franceschi@gmail.com>
+Author: Niksa Franceschi <niksa.franceschi@gmail.com><br>
 Burst for donations: BURST-RQW7-3HNW-627D-3GAEV<br>
 
-Orignal code for Linux miner/plotter/plot optimizer by dcct / Markus Tervooren <info@bchain.info>, Burst: BURST-R5LP-KEL9-UYLG-GFG6T<br>
+######Orignal code 
+Linux miner/plotter/plot optimizer by dcct / Markus Tervooren <info@bchain.info>, Burst: BURST-R5LP-KEL9-UYLG-GFG6T<br>
 
 Modifed using Cerr Janror <cerr.janror@gmail.com>, Burst: BURST-LNVN-5M4L-S9KP-H5AAC, BurstSoftware code: https://github.com/BurstTools/BurstSoftware <br>
 
