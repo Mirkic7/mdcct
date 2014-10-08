@@ -326,13 +326,14 @@ unsigned long long getMS() {
 }
 
 void usage(char **argv) {
-	printf("Usage: %s -k KEY [ -x CORE ] [-d DIRECTORY] [-s STARTNONCE] [-n NONCES] [-m STAGGERSIZE] [-t THREADS]\n", argv[0]);
+	printf("Usage: %s -k KEY [ -x CORE ] [-d DIRECTORY] [-s STARTNONCE] [-n NONCES] [-m STAGGERSIZE] [-t THREADS] -a\n", argv[0]);
         printf("   CORE:\n");
         printf("     0 - default core\n");
         printf("     1 - SSE2 core\n");
 #ifdef AVX2
         printf("     2 - AVX2 core\n");
 #endif
+	printf("   -a = ASYNC writer mode (will use 2x memory!)\n");
 	exit(-1);
 }
 
