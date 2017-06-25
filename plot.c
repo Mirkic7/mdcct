@@ -354,6 +354,10 @@ void *writecache(void *arguments) {
 
 	do {
 		int b = write(ofd, &wcache[position], bytes > 100000000 ? 100000000 : bytes);	// Dont write more than 100MB at once
+		if (-1 == b) {
+			perror("\nWrite error");
+			exit(-1);
+		}
 		position += b;
 		bytes -= b;
 	} while(bytes > 0);
