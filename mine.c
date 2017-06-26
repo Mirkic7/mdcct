@@ -208,7 +208,7 @@ void procscoop(unsigned long long nonce, int n, char *data, unsigned long long a
 								deadline = ndeadline;
 						}
 					} else {
-						printf("\nWalet reported no deadline.\n");
+						printf("\nWallet reported no deadline.\n");
 					}
 #ifdef SOLO
 					// Deadline too high? Passphrase may be wrong.
