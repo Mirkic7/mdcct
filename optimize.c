@@ -65,7 +65,7 @@ int optimizeFile(char *filename, unsigned long long memory) {
 #endif
 
 	if(fh < 0) {
-		printf("File %s not found\n", filename);
+		perror(filename);
 		if(dir != NULL)
 			free(dir);
 		return -1;
